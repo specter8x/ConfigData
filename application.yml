@@ -3,28 +3,28 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
       
-  ---
-  spring:
-    profiles: subject
-  words: I,You,He,She,It,They
-  
-  ---
-  spring:
-    profiles: verb
-  words: ran,knew,had,saw,bought,dropped
+---
+spring:
+  profiles: subject
+words: I,You,He,She,It,They
 
-  ---
-  spring:
-    profiles: article
-  words: a,the
+---
+spring:
+  profiles: verb
+words: ran,knew,had,saw,bought,dropped
 
-  ---
-  spring:
-    profiles: adjective
-  words: reasonable,leaky,suspicious,ordinary,unlikely
+---
+spring:
+  profiles: article
+words: a,the
 
-  ---
-  spring:
-    profiles: noun
-  words: boat,book,vote,seat,backpack,partition,groundhog        
+---
+spring:
+  profiles: adjective
+words: reasonable,leaky,suspicious,ordinary,unlikely
+
+---
+spring:
+  profiles: noun
+words: boat,book,vote,seat,backpack,partition,groundhog        
       
